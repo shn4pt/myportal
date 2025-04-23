@@ -1,8 +1,7 @@
 # myportal
 ## 環境構築(Windows11)
 ### 1. wslにubuntuを入れる(今回はNoble 24.04を利用)
-* [参考](https://learn.microsoft.com/ja-jp/windows/wsl/install#manual-installation-steps)
-<a href="https://learn.microsoft.com/ja-jp/windows/wsl/install" target="_blank" rel="noopener noreferrer">WSL を使用して Windows に Linux をインストールする方法</a>
+[WSL を使用して Windows に Linux をインストールする方法](https://learn.microsoft.com/ja-jp/windows/wsl/install)
 ```
 wsl --list --online
 wsl --list
@@ -58,16 +57,20 @@ newgrp docker
 
 
 ### Git＆GitHubの設定
-3. Git for windowsのインストール
+1. Git for windowsのインストール
 [ダウンロードサイト](https://gitforwindows.org/)
 
 
-4. Gitの設定
+2. Gitの設定
 ```
 git config --global user.name "xxxx"
 git config --global user.email "xxx@xxx"
 git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager.exe"
 ```
+
+### Visual Studio Codeのインストールと設定
+1. 下記よりダウンロードしてインストール
+[Download Visual Studio Code](https://code.visualstudio.com/download)
 
 
 
