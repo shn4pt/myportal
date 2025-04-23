@@ -8,6 +8,12 @@ wsl --list
 wsl --install Ubuntu-24.04
 ```
 
+username, passwordをubuntuに設定後、
+アップグレード
+```
+sudo apt update && sudo apt upgrade
+```
+
 ### 2. docker engineを入れる
 * [参考](https://docs.docker.com/engine/install/ubuntu/#install-from-a-package)
 
@@ -32,6 +38,36 @@ sudo apt-get update
 ```
 sudo apt-get install docker-ce docker-ce-cli ontainerd.io docker-buildx-plugin docker-compose-plugin
 ```
+
+3. 非ルートユーザーでもdockerが管理できるようにする
+3.1 グループ作成
+```
+sudo groupadd docker
+```
+
+3.2 ユーザーをdockerグループに追加
+```
+sudo usermod -aG docker $USER
+```
+
+3.3 変更を有効にする
+```
+newgrp docker
+```
+
+
+### Git＆GitHubの設定
+3. Git for windowsのインストール
+[ダウンロードサイト](https://gitforwindows.org/)
+
+
+4. Gitの設定
+```
+git config --global user.name "xxxx"
+git config --global user.email "xxx@xxx"
+git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager.exe"
+```
+
 
 
 
