@@ -1,7 +1,8 @@
 # myportal
 ## 環境構築(Windows11)
-### 1. wslにubuntu Noble 24.04(LTS)を入れる
+### 1. wslにubuntuを入れる(今回はNoble 24.04を利用)
 * [参考](https://learn.microsoft.com/ja-jp/windows/wsl/install#manual-installation-steps)
+<a href="https://learn.microsoft.com/ja-jp/windows/wsl/install" target="_blank" rel="noopener noreferrer">WSL を使用して Windows に Linux をインストールする方法</a>
 ```
 wsl --list --online
 wsl --list
