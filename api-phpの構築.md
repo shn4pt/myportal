@@ -5,7 +5,7 @@ curl -s "https://laravel.build/example-app" | bash
 ```
 
 2. ComposerのDockerイメージを利用してSailを含むComposerの依存パッケージをインストール
-　1の手順で、依存関係含めてインストールされるが、gitにコミットする際は、依存関係はpushされないので、
+* 1の手順で、依存関係含めてインストールされるが、gitにコミットする際は、依存関係はpushされないので、
 　他の開発者がpullした後に実施が必要
 ```
 docker run --rm \
