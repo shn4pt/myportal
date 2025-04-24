@@ -56,7 +56,7 @@ newgrp docker
 ```
 
 
-### Git＆GitHubの設定
+### 3. Git＆GitHubの設定
 1. Git for windowsのインストール
 [ダウンロードサイト](https://gitforwindows.org/)
 
@@ -68,7 +68,7 @@ git config --global user.email "xxx@xxx"
 git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager.exe"
 ```
 
-### Visual Studio Codeのインストールと設定
+### 4. Visual Studio Codeのインストールと設定
 1. 下記よりダウンロードしてインストール
 [Download Visual Studio Code](https://code.visualstudio.com/download)
 
@@ -79,6 +79,15 @@ git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git
 ```
 code .
 ```
+
+## 5. ソースダウンロード
+1. git clone
+```
+git clone https://github.com/shn4pt/myportal.git
+```
+
+
+
 
 
 
