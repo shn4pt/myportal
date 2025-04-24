@@ -72,6 +72,16 @@ git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git
 1. 下記よりダウンロードしてインストール
 [Download Visual Studio Code](https://code.visualstudio.com/download)
 
+2. 拡張機能パックをインストール
+* Remote Development
+
+3. wslからVS Codeを開く
+```
+code .
+```
+
+
+
 
 
 
