@@ -1,0 +1,21 @@
+# OAuth2 / OIDC
+## 概要
+- OAuthとは？
+  - サードパーティーアプリに限定的なアクセス権限を与える*認可*フレームワーク
+  - 最新版は2.0で[RFC6749](https://datatracker.ietf.org/doc/html/rfc6749)で標準化されている
+
+- 認証と認可
+  - 認証(Authentication)
+    - ユーザが誰であるのかを証明すること
+      - 「Taroです」→「確かにTaroですね」
+  - 認可(Authorization)
+    - ユーザができる権限を管理すること
+      - 「ファイルAを見たい」→「ファイルAはみせてOKです。」
+
+
+  
+
+
+
+## 参考文献
+- [Udemy:Outh2とOpenID Connectの基礎と活用](https://h-tjp.udemy.com/course/oauth2-openid-connect/learn/lecture/46609733#overview)
