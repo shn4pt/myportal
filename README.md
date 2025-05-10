@@ -86,6 +86,21 @@ code .
 git clone https://github.com/shn4pt/myportal.git
 ```
 
+## 6. 起動
+
+```
+# コンテナ起動
+docker compose --env-file ./api-php/.env up --build -d
+
+# laravelのコンテナにbashで入る
+docker container exec -it myportal-laravel.test-1 bash
+
+# migrateコマンドでテーブル作成
+php artisan migrate
+
+```
+
+
 
 
 
