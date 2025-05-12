@@ -98,6 +98,19 @@ docker container exec -it myportal-laravel.test-1 bash
 # migrateコマンドでテーブル作成
 php artisan migrate
 
+# laravelのapiをインストール
+php artisan install:api
+
+# migrateを聞かれるのでyesとする
+# personal_access_tokens_tableが作られる
+
+# コンテナから出る
+exit
+
+# ファイルの権限を変更
+sudo chown -R shn:shn /home/shn/work/myportal/api-php
+sudo chmod -R 777 /home/shn/work/myportal/api-php
+
 ```
 
 
